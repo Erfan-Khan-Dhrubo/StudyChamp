@@ -47,7 +47,7 @@ function App() {
         </div>
       </div>
       <h1>He;</h1>
-      <p>world world</p>
+      <p>world</p>
     </>
   );
 }
