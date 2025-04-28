@@ -52,6 +52,7 @@ function App() {
 
       <p>world world</p>
       <h1>hola</h1>
+      <h1>i am farah</h1>
     </>
   );
 }
