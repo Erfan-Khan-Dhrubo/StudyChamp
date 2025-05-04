@@ -1,58 +1,56 @@
 import "./App.css";
+import Login from "./pages/login";
 
 function App() {
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm">
-        <div className="flex-1">
-          <a className="btn btn-ghost text-xl">daisyUI</a>
-        </div>
-        <div className="flex gap-2">
-          <input
-            type="text"
-            placeholder="Search"
-            className="input input-bordered w-24 md:w-auto"
-          />
-          <div className="dropdown dropdown-end">
-            <div
-              tabIndex={0}
-              role="button"
-              className="btn btn-ghost btn-circle avatar"
-            >
-              <div className="w-10 rounded-full">
-                <img
-                  alt="Tailwind CSS Navbar component"
-                  src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+      <header>
+        <div class="flex justify-center items-center min-h-screen bg-gray-100">
+          <div class="bg-white p-8 rounded-lg shadow-lg w-96">
+            <h2 class="text-2xl font-bold text-center mb-4">Signup</h2>
+            <p class="text-gray-600 text-center mb-6">
+              Create a new account and click signup when you're done.
+            </p>
+
+            <form>
+              <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="input input-bordered w-full"
                 />
               </div>
-            </div>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
-            >
-              <li>
-                <a className="justify-between">
-                  Profile
-                  <span className="badge">New</span>
-                </a>
-              </li>
-              <li>
-                <a>Settings</a>
-              </li>
-              <li>
-                <a>Logout</a>
-              </li>
-            </ul>
+
+              <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  class="input input-bordered w-full"
+                />
+              </div>
+
+              <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  placeholder="Password"
+                  class="input input-bordered w-full"
+                />
+              </div>
+
+              <button class="btn btn-primary w-full">Signup</button>
+            </form>
           </div>
         </div>
-        <div>
-          <h1>pdfwdfwfgeg</h1>
-        </div>
-      </div>
-
-      <p>world world</p>
-      <h1>hola</h1>
-      <h1>i am farah</h1>
+      </header>
     </>
   );
 }
