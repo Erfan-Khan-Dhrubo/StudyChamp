@@ -1,0 +1,49 @@
+[
+  {
+    "id": "student1",
+    "name": "Alice",
+    "quizScores": [
+      { "courseId": "course1", "score": 85 },
+      { "courseId": "course2", "score": 90 },
+      { "courseId": "course4", "score": 75 }
+    ],
+    "averageScore": 83.33
+  },
+  {
+    "id": "student2",
+    "name": "Bob",
+    "quizScores": [
+      { "courseId": "course1", "score": 78 },
+      { "courseId": "course3", "score": 82 }
+    ],
+    "averageScore": 80
+  },
+  {
+    "id": "student3",
+    "name": "Charlie",
+    "quizScores": [
+      { "courseId": "course2", "score": 95 },
+      { "courseId": "course4", "score": 88 },
+      { "courseId": "course5", "score": 91 }
+    ],
+    "averageScore": 91.33
+  },
+  {
+    "id": "student4",
+    "name": "Diana",
+    "quizScores": [
+      { "courseId": "course1", "score": 92 },
+      { "courseId": "course5", "score": 87 }
+    ],
+    "averageScore": 89.5
+  },
+  {
+    "id": "student5",
+    "name": "Ethan",
+    "quizScores": [
+      { "courseId": "course3", "score": 70 },
+      { "courseId": "course4", "score": 76 }
+    ],
+    "averageScore": 73
+  }
+]

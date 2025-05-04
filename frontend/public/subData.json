@@ -1,0 +1,37 @@
+[
+  {
+    "id": "course1",
+    "title": "Mathematics",
+    "description": "Explore topics from algebra to calculus and test your problem-solving skills.",
+    "numberOfQuizzes": 10,
+    "quizGiven": false
+  },
+  {
+    "id": "course2",
+    "title": "Science",
+    "description": "Dive into physics, chemistry, and biology with fun and challenging quizzes.",
+    "numberOfQuizzes": 8,
+    "quizGiven": true
+  },
+  {
+    "id": "course3",
+    "title": "History",
+    "description": "Learn about world events, important dates, and historical figures.",
+    "numberOfQuizzes": 6,
+    "quizGiven": false
+  },
+  {
+    "id": "course4",
+    "title": "English",
+    "description": "Improve your grammar, vocabulary, and comprehension through quizzes.",
+    "numberOfQuizzes": 9,
+    "quizGiven": true
+  },
+  {
+    "id": "course5",
+    "title": "Computer Science",
+    "description": "Test your knowledge in programming, algorithms, and data structures.",
+    "numberOfQuizzes": 7,
+    "quizGiven": false
+  }
+]
