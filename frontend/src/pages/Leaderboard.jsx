@@ -4,7 +4,7 @@ import SingleRank from "../Components/SingleRank";
 
 const Leaderboard = () => {
   const data = useLoaderData();
-  console.log(data);
+  //console.log(data);
   return (
     <div>
       <div>

@@ -30,6 +30,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "courses",
+        loader: () => fetch("subData.json"),
         Component: Courses,
       },
       {
