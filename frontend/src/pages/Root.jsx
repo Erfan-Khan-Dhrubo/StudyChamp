@@ -26,7 +26,8 @@ const Root = () => {
   return (
     <div className="w-full mx-auto">
       <Navbar />
-      <Outlet />  {/* Here is where nested routes like /courses, /quiz/:courseId will render */}
+      <Outlet /> 
+      {/* this is a placeholder that renders the child route components based on the current URL path. */}
       <Footer />
     </div>
   );

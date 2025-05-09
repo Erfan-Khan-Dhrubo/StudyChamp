@@ -55,7 +55,7 @@
 
 
 import React from "react";
-import { createBrowserRouter } from "react-router-dom";  // Corrected import
+import { createBrowserRouter } from "react-router-dom"; 
 import Root from "../pages/Root";
 import ErrorPage from "../pages/ErrorPage";
 import Home from "../Components/Home";
@@ -64,7 +64,7 @@ import Signup from "../pages/Signup";
 import Courses from "../pages/Courses";
 import Leaderboard from "../pages/Leaderboard";
 import AdminLogin from "../pages/AdminLogin";
-import Quiz from "../pages/quiz";  // Capitalized the component for consistency
+import Quiz from "../pages/quiz";
 
 export const router = createBrowserRouter([
   {
@@ -75,26 +75,24 @@ export const router = createBrowserRouter([
       {
         index: true,
         path: "/",
-        element: <Home />,  // Corrected for Home
+        element: <Home />, 
       },
       {
         path: "login",
-        element: <Login />,  // Corrected for Login
+        element: <Login />, 
       },
       {
         path: "signup",
-        element: <Signup />,  // Corrected for Signup
+        element: <Signup />, 
       },
       {
         path: "courses",
-        element: <Courses />,  // Corrected for Courses
-        // If you need to load data from a JSON file, you can use the loader:
+        element: <Courses />,  
         loader: () => fetch("/subData.json").then((res) => res.json()), 
       },
       {
         path: "leaderboard",
-        element: <Leaderboard />,  // Corrected for Leaderboard
-        // Similarly, if you want to fetch leaderboard data, use loader here as well
+        element: <Leaderboard />, 
         loader: () => fetch("/leaderboard.json").then((res) => res.json()), 
       },
       {
@@ -104,7 +102,6 @@ export const router = createBrowserRouter([
       {
         path: "quiz/:courseId",  // Dynamic path for quiz
         element: <Quiz />,  // Corrected for Quiz
-        // If you need to load data for quiz dynamically:
         loader: () => fetch("/quiz.json").then((res) => res.json()), 
       },
     ],

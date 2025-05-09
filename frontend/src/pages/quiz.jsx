@@ -1,15 +1,7 @@
 // import React from "react";
-// import { useLoaderData } from "react-router";
 
-// const quiz = () => {
-//   return <div></div>;
-// };
-
-// export default quiz;
-
-
-// quiz.jsx
-import React, { useState } from "react";
+import React, { useState } from "react"; 
+// managing local data
 import { useLoaderData } from "react-router-dom";
 
 const Quiz = () => {
