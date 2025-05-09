@@ -24,17 +24,6 @@ const Signup = () => {
 
             <div class="mb-4">
               <label class="block text-gray-700 text-sm font-bold mb-2">
-                Email
-              </label>
-              <input
-                type="email"
-                placeholder="Your Email"
-                class="input input-bordered w-full"
-              />
-            </div>
-
-            <div class="mb-4">
-              <label class="block text-gray-700 text-sm font-bold mb-2">
                 Password
               </label>
               <input

@@ -8,6 +8,8 @@ import Login from "../pages/login";
 import Signup from "../pages/Signup";
 import Courses from "../pages/Courses";
 import Leaderboard from "../pages/Leaderboard";
+import AdminLogin from "../pages/AdminLogin";
+import quiz from "../pages/quiz";
 
 export const router = createBrowserRouter([
   {
@@ -37,6 +39,15 @@ export const router = createBrowserRouter([
         path: "leaderboard",
         loader: () => fetch("leaderboard.json"),
         Component: Leaderboard,
+      },
+      {
+        path: "admin",
+        Component: AdminLogin,
+      },
+      {
+        path: "quiz",
+        loader: () => fetch("quiz.json"),
+        Component: quiz,
       },
     ],
   },

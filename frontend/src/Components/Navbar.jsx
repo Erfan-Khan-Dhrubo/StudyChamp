@@ -26,7 +26,7 @@ const Navbar = () => {
             Login
           </Link>
 
-          <Link className="btn" to="/login">
+          <Link className="btn" to="/admin">
             Admin
           </Link>
         </div>

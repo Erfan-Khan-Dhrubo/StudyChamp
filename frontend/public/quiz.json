@@ -1,0 +1,46 @@
+{
+  "quiz": [
+    {
+      "question": "What is the capital of Bangladesh?",
+      "options": ["Dhaka", "Chittagong", "Sylhet", "Khulna"],
+      "answer": [0],
+      "explanation": "Dhaka is the capital city of Bangladesh, serving as the political, economic, and cultural center of the country.",
+      "type": "singleSelect"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Jupiter", "Venus"],
+      "answer": [1],
+      "explanation": "Mars is known as the Red Planet due to its reddish appearance, which is caused by iron oxide (rust) on its surface.",
+      "type": "singleSelect"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "options": ["O", "H", "H2O", "HO"],
+      "answer": [2],
+      "explanation": "The chemical symbol for water is H₂O, indicating that each molecule consists of two hydrogen atoms and one oxygen atom.",
+      "type": "singleSelect"
+    },
+    {
+      "question": "Who wrote the famous play 'Romeo and Juliet'?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Jane Austen",
+        "Mark Twain"
+      ],
+      "answer": [1],
+      "explanation": "William Shakespeare wrote 'Romeo and Juliet', one of his most famous tragedies, which explores themes of love and conflict.",
+      "type": "singleSelect"
+    },
+    {
+      "question": "What is the largest mammal on Earth?",
+      "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+      "answer": [1],
+      "explanation": "The Blue Whale is the largest mammal on Earth, reaching lengths of up to 100 feet and weighing as much as 200 tons.",
+      "type": "singleSelect"
+    }
+  ],
+  "title": "Quiz Card",
+  "type": "quiz"
+}

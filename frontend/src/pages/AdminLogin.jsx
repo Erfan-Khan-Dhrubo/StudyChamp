@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router";
 
-const Login = () => {
+const AdminLogin = () => {
   return (
     <div>
       <div class="flex justify-center items-center min-h-screen bg-gray-100">
         <div class="bg-white p-8 rounded-lg shadow-lg w-96">
-          <h2 class="text-2xl font-bold text-center mb-4">Login</h2>
+          <h2 class="text-2xl font-bold text-center mb-4">Admin Login</h2>
 
           <form>
             <div class="mb-4">
@@ -31,13 +30,7 @@ const Login = () => {
               />
             </div>
 
-            <button class="btn text-white w-full bg-black ">Login</button>
-            <div className="flex mt-4">
-              <p class="text-gray-600">Don't have an account?</p>
-              <Link className="pl-4 text-blue-500 hover:underline" to="/signup">
-                Signup
-              </Link>
-            </div>
+            <button class="btn text-white w-full bg-black ">Signup</button>
           </form>
         </div>
       </div>
@@ -45,4 +38,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default AdminLogin;
