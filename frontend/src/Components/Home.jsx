@@ -2,9 +2,9 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
+    <div className="mx-5">
       <div
-        className="hero min-h-screen"
+        className="hero min-h-screen my-5"
         style={{
           backgroundImage:
             "url(https://images.pexels.com/photos/3021314/pexels-photo-3021314.jpeg)",

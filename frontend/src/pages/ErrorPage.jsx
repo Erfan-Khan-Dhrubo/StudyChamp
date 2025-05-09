@@ -1,11 +1,25 @@
+// import React from "react";
+
+// const ErrorPage = () => {
+//   return (
+//     <div>
+//       <div>Page not Found</div>
+//     </div>
+//   );
+// };
+
+// export default ErrorPage;
+
+
 import React from "react";
 
 const ErrorPage = () => {
   return (
     <div>
-      <div>Page not Found</div>
+      <h2>Page Not Found</h2>
     </div>
   );
 };
 
 export default ErrorPage;
+
